@@ -1,4 +1,4 @@
-package com.hasanaydin.cryptocurrencyapp
+package com.hasanaydin.cryptocurrencyapp.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
