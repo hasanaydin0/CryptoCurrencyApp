@@ -15,7 +15,7 @@ class RecyclerViewAdapter (private val cryptoList : ArrayList<CryptoModel>, priv
         fun onItemClick(cryptoModel: CryptoModel)
     }
 
-    private val colors : Array<String> = arrayOf("0A7883","A43707","9FB322","684173","417364","00226A","7C0000","185A0F")
+    private val colors : Array<String> = arrayOf("#0A7883","#A43707","#9FB322","#684173","#417364","#00226A","#7C0000","#185A0F")
 
     class RowHolder(view : View) : RecyclerView.ViewHolder (view) {
 

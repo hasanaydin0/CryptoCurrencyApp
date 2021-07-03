@@ -1,6 +1,7 @@
 package com.hasanaydin.cryptocurrencyapp.service
 
 import com.hasanaydin.cryptocurrencyapp.model.CryptoModel
+import io.reactivex.Observable
 import retrofit2.Call
 import retrofit2.http.GET
 
@@ -12,6 +13,8 @@ interface CryptoAPI {
 
     @GET("prices?key=68fb62f53f85ef132e77234a5d2dc957d7285984")
 
-    fun getData() : Call<List<CryptoModel>>
+    fun getData() : Observable<List<CryptoModel>>
+
+    // fun getData() : Call<List<CryptoModel>>
 
 }
